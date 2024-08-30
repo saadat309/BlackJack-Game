@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url("table.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+div {
+  line-height: 5vh;
+  backdrop-filter: blur(20px);
+  padding: 1rem;
+  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  text-align: center;
+}
+h1 {
+  color: goldenrod;
+  font-weight: 800;
+  letter-spacing: 1vw;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 52px;
+}
+
+p {
+  font-family: cursive;
+  font-size: 28px;
+  color: white;
+}
+
+#message-el {
+  font-style: italic;
+  font-weight: 700;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+  background-color: goldenrod;
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button:hover {
+  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.8);
+}
