@@ -10,12 +10,13 @@ body {
   overflow: hidden;
 }
 div {
+  display: grid;
+  place-items: center;
   line-height: 5vh;
   backdrop-filter: blur(20px);
   padding: 1rem;
   box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.5);
   border-radius: 1rem;
-  text-align: center;
 }
 h1 {
   color: goldenrod;
@@ -23,12 +24,15 @@ h1 {
   letter-spacing: 1vw;
   font-family: "Courier New", Courier, monospace;
   font-size: 52px;
+  margin: 1rem 0rem;
 }
 
 p {
   font-family: cursive;
   font-size: 28px;
   color: white;
+  margin: 1rem 0rem;
+  text-align: center;
 }
 
 #message-el {
@@ -37,7 +41,7 @@ p {
 }
 
 button {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   padding: 0.3rem 1rem;
   background-color: goldenrod;
   color: #000;
